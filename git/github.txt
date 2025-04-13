@@ -1,0 +1,36 @@
+■リポジトリ作成
+githubでリポジトリを作成する
+
+■ローカルでgit initをしてリポジトリを作成する
+mkdir リポジトリ名
+git init
+
+■githubへpushする前の設定
+・githubでトークンの作成
+pushするときにパスワードとしてトークンを求められるので、トークンの作成をする
+github右上のプロフィールアイコン>setting>Developer Settings>Personal access tokens>Tokens (classic)>Generate new token>Generate new token (classic)
+好きなところにチェックを入れてGenerate token
+作成したトークンはメモして保存しておく
+
+・ssh接続設定
+ssh-keygen -t ed25519 -C "example@gmail.com"
+cat ~/.ssh/id_ed25519.pubをして、それをクリップボードに保存
+githubでgithub右上のプロフィールアイコン>setting>SSH and GPG keys>New SSH keygen
+Titleを適当に入力し、Keyにクリップボードに保存したテキストをペーストしてADD SSH key
+
+・remoteリポジトリの登録
+git remote add リポジトリ名 url    //リポジトリ名は好きに決めていいが、一般的にはoriginとつける。
+例　git remote add origin https://github.com/edo3838/note.git
+
+・push先の設定
+git push --set-upstream リポジトリ名 ブランチ名
+例：git push --set-upstream origin master
+実行すると、次のように聞かれる
+Username: githubのユーザーネームを記入
+Password: githubで先ほど作成したトークンを入力
+
+■git push
+git push origin master
+実行すると、次のように聞かれる
+Username: githubのユーザーネームを記入
+Password: githubで先ほど作成したトークンを入力
