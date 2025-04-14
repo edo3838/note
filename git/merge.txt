@@ -1,0 +1,11 @@
+ローカルで自分用のブランチを作成し、作業がひと段落したら、元のブランチにひとつのcommitとしてマージする方法
+
+■ブランチの作成
+git branch -c branch名
+git switch branch名
+
+■ブランチのマージ
+git switch 元のブランチ
+git merge --squash branch名 //これでマージされるが、ワークツリーにマージされるだけで、コミットは作成されない
+git add .
+git commit -m "コミットメッセージ"
