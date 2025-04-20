@@ -1,0 +1,12 @@
+reStructuredTextのコンパイル
+
+あらかじめ、sphinxをインストールしておく
+$ pip install sphinx
+
+index.rst、conf.pyがあるプロジェクトルートディレクトリへ移動
+
+下記を実行
+sphinx-quickstart
+make html
+　パッケージが足りない場合、足りないパッケージが表示されるので、それに従いインストールしてから再度実行
+
