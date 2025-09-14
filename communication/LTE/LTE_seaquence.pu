@@ -1,6 +1,21 @@
 @startuml LTE
 title LTE seaquence
-UE -> eNB: リクエスト
-eNB --> UE: レスポンス
+UE -> eNB: RRC Connection Request
+UE <-- eNB: RRC Connection Setup
+UE -> eNB: RRC Connection Setup Compleate + Attach Request (ESM:PDN Connectivity Request)
+UE <-- eNB: Identity Request
+UE -> eNB: Identity Response
+UE <-- eNB: UE Capability Request
+UE -> eNB: UE Capability Response
+UE <-- eNB: Authentication Request
+UE -> eNB: Authentication Response
+UE <-- eNB: Security Mode Command
+UE -> eNB: Security Mode Complete
+UE <-- eNB: ESM Information Request
+UE -> eNB: ESM Information Response
+UE <-- eNB: Attach Accept + Activate Default EPS Bearer 
+UE -> eNB: Activate Default EPS Bearer Accept
+UE -> eNB: Attach Complete
+
 
 @enduml
