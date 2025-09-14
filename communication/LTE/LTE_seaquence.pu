@@ -1,0 +1,6 @@
+@startuml LTE
+title LTE seaquence
+UE -> eNB: リクエスト
+eNB --> UE: レスポンス
+
+@enduml
