@@ -1,4 +1,4 @@
-# L3 mesages（RRC,NAS）のデータ構造
+# L3 messages（RRC,NAS）のデータ構造
 本書はTS 24.301　TS 24.301を参考にまとめたもの。
 TS 24.301には各IEの説明が記載されている。
 
