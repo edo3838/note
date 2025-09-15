@@ -1,0 +1,8 @@
+- interpret: 解釈する
+- clause: 条項
+- generic: 一般的な
+- address: 規定する・取り扱う
+- compliant: 準拠
+- imperative: 命令的
+- referred as: ~と呼ばれる
+- successive: 連続した
