@@ -36,5 +36,5 @@ Information　Element　Identifierの略。Formatにタイプがないものは�
 任意。受信側はIEがある、ないでエラーを出してはいけない
 
 
-# Attach request1には各IEの説明が記載されている。1には各IEの説明が記載されている。1には各IEの説明が記載されている。1には各IEの説明が記載されている。1には各IEの説明が記載されている。1には各IEの説明が記載されている。1には各IEの説明が記載されている。1には各IEの説明が記載されている。1には各IEの説明が記載されている。1には各IEの説明が記載されている。
+# Attach request
 ![alt text](image.png)
