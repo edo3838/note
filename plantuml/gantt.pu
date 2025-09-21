@@ -1,0 +1,38 @@
+@startgantt test
+!include 祝日.pu
+'printscale monthly zoom 1
+'printscale weekly zoom 1
+printscale daily zoom 1
+project starts 2025/9/1
+saturaday are closed
+sunday are closed
+2025/1/1 is closed
+2025/1/13 is closed
+2025/2/11 is closed
+2025/2/23 is closed
+2025/2/24 is closed
+2025/3/20 is closed
+2025/4/29 is closed
+2025/5/3 is closed
+2025/5/4 is closed
+2025/5/5 is closed
+2025/5/6 is closed
+2025/7/21 is closed
+2025/8/11 is closed
+2025/9/15 is closed
+2025/9/23 is closed
+2025/10/13 is closed
+2025/11/3 is closed
+2025/11/23 is closed
+2025/11/24 is closed
+2025/12/23 is closed
+
+-- company A --
+[Task A] starts 2025/9/20 and ends 2025/12/31 
+[Task B] starts at [Task A]'s end and ends 2026/3/30
+
+-- company B --
+[Task C] starts at [Task A]'s end and ends 2026/1/7
+[Task D] starts at [Task C]'s end and requires 7 days
+
+@endgantt

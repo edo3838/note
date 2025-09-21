@@ -1,5 +1,10 @@
 @startuml LTE
 title LTE seaquence
+UE <-- eNB: PSS(Primary Syncronization Signal)
+UE <-- eNB: SSS(Secondary Syncronization Signal)
+UE <-- eNB: MIB(Master Information Block)
+UE <-- eNB: SIB1(System Information Block type 1)
+UE <-- eNB: SIB2(System Information Block type 2)
 UE -> eNB: RRC Connection Request
 UE <-- eNB: RRC Connection Setup
 UE -> eNB: RRC Connection Setup Compleate + Attach Request (ESM:PDN Connectivity Request)
