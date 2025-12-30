@@ -2,10 +2,10 @@
 LTEのぷぷろとコルスタックはU-planeとC-planeに分かれる
 
 ## U-planeのプロトコルスタック
-![alt text](image-2.png)
+![alt text](assets/protocol_stack/image-2.png)
 
 ## C-planeのプロトコルスタック
-![alt text](image-3.png)
+![alt text](assets/protocol_stack/image-3.png)
 
 おそらく、PDCEはPDCP、RLはRLC、RPCはRRCの間違え。
 C-planeはPDCPの上にRRCとNASがある。１ふ

@@ -12,7 +12,7 @@ IE(Information Element)は基本的には次の要素で構成される。
 - a value part
 
 標準的なIEのフォーマットは次のようなものである。
-![alt text](image-1.png)
+![alt text](assets/data_structure/image-1.png)
 
 この表から、おそらくtypeとIEIは同じ意味だと思われる。
 
@@ -37,4 +37,4 @@ Information　Element　Identifierの略。Formatにタイプがないものは�
 
 
 # Attach request
-![alt text](image.png)
+![alt text](assets/data_structure/image.png)
